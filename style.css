@@ -55,7 +55,7 @@ button {
 }
 
 .btn:hover {
-    background-color: rgba(80, 17, 204);
+    background-color: #5011cc;
 }
 
 .row {
@@ -97,7 +97,7 @@ main {
 .section__title {
     font-size: 48px;
     font-weight: 900;
-    color: rgb(36, 62, 99);
+    color: #243e63;
     line-height: 1.5;
     margin: 16px 0;
     letter-spacing: 0.025em;
@@ -191,7 +191,7 @@ nav {
 }
 
 .nav__link--primary:hover {
-    background-color: rgba(80, 17, 204);
+    background-color: #5011cc;
 }
 
 .login {
@@ -218,7 +218,7 @@ nav {
     margin: 24px 16px;
     padding: 32px;
     background-color: #fff;
-    border: 1px solid rgb(229, 231, 235);
+    border: 1px solid #e5e7eb;
     border-radius: 8px;
     z-index: 4;
     visibility: hidden;
@@ -300,9 +300,9 @@ header .row {
 .header__email--input {
     width: 100%;
     border-radius: 100px;
-    border: 2px solid rgb(229, 231, 235);
+    border: 2px solid #e5e7eb;
     padding: 20px 192px 20px 32px;
-    color: rgb(36, 62, 99);
+    color: #243e63;
     font-size: 16px;
     font-weight: 500;
     position: absolute;
@@ -313,12 +313,12 @@ header .row {
 }
 
 .header__email--input:hover {
-    border-color: rgba(160, 174, 192);
+    border-color: #a0aec0;
 }
 
 .header__email--input:focus, .header__email--input:active {
     outline: none;
-    border-color: rgba(100, 21, 255);
+    border-color: #6415ff;
 }
 
 .header__email--btn {
@@ -335,7 +335,7 @@ header .row {
 }
 
 .header__email--btn:hover {
-    background-color: rgba(60, 13, 153);
+    background-color: #3c0d99;
 }
 
 .header__customers {
@@ -426,7 +426,7 @@ FEATURES ↓
 .feature__para {
     margin-top: 16px;
     font-size: 16px;
-    color: rgb(124, 139, 161);
+    color: #7c8ba1;
     line-height: 2;
     font-weight: 500;
 }
@@ -460,7 +460,7 @@ QUALITY WORK ↓
 
 .quality__img--wrapper {
     border-radius: 4px;
-    border: 1px solid rgb(229, 231, 235);
+    border: 1px solid #e5e7eb;
     position: relative;
     margin: 0 56px;
     z-index: 2;
@@ -478,7 +478,7 @@ QUALITY WORK ↓
     position: absolute;
     right: 0px;
     bottom: 0px;
-    fill: rgb(100, 21, 255);
+    fill: #6415ff;
     opacity: 1;
     z-index: 0;
     display: block;
@@ -520,7 +520,7 @@ STEPS ↓
     width: 10rem;
     height: 10rem;
     z-index: -1;
-    fill: rgb(100, 21, 255);
+    fill: #6415ff;
     opacity: 0.8;
 }
 
@@ -683,26 +683,26 @@ PRICING ↓
     padding: 0.5rem 2rem 0 2rem;
     margin-right: 2rem;
     text-align: center;
-    color: rgb(26, 32, 44);
+    color: #1a202c;
     box-shadow:
         0 1px 3px rgba(0, 0, 0, .1),
         0 1px 2px rgba(0, 0, 0, .06);
 }
 
 .plan__primary {
-    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    background: linear-gradient(135deg, #4c51bf 0%, #667eea 100%);
 }
 
 .plan__personal .plan__stripe,
 .plan__personal .plan__button {
     color: #f7fafc;
-    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    background: linear-gradient(115deg, #38b2ac 0%, #81e6d9 100%);
 }
 
 .plan__enterprise .plan__stripe,
 .plan__enterprise .plan__button {
     color: #f7fafc;
-    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    background: linear-gradient(115deg, #f56565 0%, #feb2b2 100%);
 }
 
 .plan__primary .plan__button {
@@ -729,8 +729,8 @@ PRICING ↓
 }
 
 .plan__middle {
-    border-top: 2px solid rgb(229, 231, 235);
-    border-bottom: 2px solid rgb(229, 231, 235);
+    border-top: 2px solid #e5e7eb;
+    border-bottom: 2px solid #e5e7eb;
     margin: 0 -2rem;
     display: flex;
     flex-direction: column;
@@ -738,8 +738,8 @@ PRICING ↓
 }
 
 .plan__primary .plan__middle {
-    border-top: 2px solid rgb(102, 126, 234);
-    border-bottom: 2px solid rgb(102, 126, 234);
+    border-top: 2px solid #667eea;
+    border-bottom: 2px solid #667eea;
 }
 
 .plan__bottom {
@@ -848,7 +848,7 @@ TESTIMONIALS ↓
 }
 
 .fa-star {
-    color: rgba(246, 173, 85);
+    color: #f6ad55;
 }
 
 .testimonial__title {
@@ -864,7 +864,7 @@ TESTIMONIALS ↓
     font-weight: 500;
     line-height: 1.625;
     font-size: 16px;
-    color: rgb(74, 85, 104);
+    color: #4a5568;
 }
 
 .testimonial__bottom {
@@ -919,12 +919,12 @@ TESTIMONIALS ↓
 }
 
 .testimonial__btn:hover {
-    background-color: rgb(229, 231, 235);
+    background-color: #e5e7eb;
 }
 
 .fa-arrow-left,
 .fa-arrow-right {
-    color: rgb(100, 21, 255);
+    color: #6415ff;
 }
 
 .divider {
@@ -970,7 +970,7 @@ START / CALL TO ACTION ↓
 .start__container {
     padding: 96px 0;
     width: 100%;
-    background-color: rgb(100, 21, 255);
+    background-color: #6415ff;
     border-radius: 8px;
     display: flex;
     justify-content: center;
@@ -1023,16 +1023,16 @@ START / CALL TO ACTION ↓
 }
 
 .start__btn--primary:hover {
-    background-color: rgba(229, 62, 62);
+    background-color: #e53e3e;
 }
 
 .start__btn--secondary {
-    border: 1px solid rgb(160, 174, 192);
+    border: 1px solid #a0aec0;
 }
 
 .start__btn--secondary:hover {
     background-color: rgba(247, 250, 252);
-    color: rgba(100, 21, 255);
+    color: #6415ff;
 }
 
 
@@ -1045,7 +1045,7 @@ FOOTER ↓
 
 footer {
     padding: 96px 32px;
-    background-color: rgb(100, 21, 255);
+    background-color: #6415ff;
     margin-bottom: -32px;
     position: relative;
     overflow: hidden;
@@ -1122,7 +1122,7 @@ footer {
     width: 100%;
     height: 2px;
     margin: 64px 0;
-    background: rgb(116, 44, 255);
+    background: #742cff;
 }
 
 .footer__bottom {
